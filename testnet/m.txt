@@ -1,0 +1,57 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 localhost:x11           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:x11-1         0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:x11-2         0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:6500          0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:6501          0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:6502          0.0.0.0:*               LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+tcp6       0      0 [::]:5000               [::]:*                  LISTEN     
+tcp6       0      0 [::]:5001               [::]:*                  LISTEN     
+tcp6       0      0 [::]:5002               [::]:*                  LISTEN     
+udp        0      0 localhost:domain        0.0.0.0:*                          
+udp        0      0 ip-172-31-2-45.e:bootpc 0.0.0.0:*                          
+udp6       0      0 [::]:5000               [::]:*                             
+udp6       0      0 [::]:5001               [::]:*                             
+udp6       0      0 [::]:5002               [::]:*                             
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7          
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     48740    /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     48745    /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     48746    /run/user/1000/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     48747    /run/user/1000/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     48748    /run/user/1000/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     13045    @/org/kernel/linux/storage/multipathd
+unix  2      [ ACC ]     STREAM     LISTENING     48749    /run/user/1000/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     48750    /run/user/1000/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     48751    /run/user/1000/pk-debconf-socket
+unix  2      [ ACC ]     STREAM     LISTENING     48752    /run/user/1000/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     157851   /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     103386   /var/snap/lxd/common/lxd/unix.socket
+unix  2      [ ACC ]     STREAM     LISTENING     157854   /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     13043    /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     13048    /run/systemd/fsck.progress
+unix  2      [ ACC ]     STREAM     LISTENING     13058    /run/systemd/journal/stdout
+unix  2      [ ACC ]     SEQPACKET  LISTENING     13063    /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     158245   /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     18109    /run/acpid.socket
+unix  2      [ ACC ]     STREAM     LISTENING     18118    /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     17239    /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     17241    /run/snapd-snap.socket
+unix  2      [ ACC ]     STREAM     LISTENING     17243    /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     104353   /var/lib/amazon/ssm/ipc/health
+unix  2      [ ACC ]     STREAM     LISTENING     320577   /home/ubuntu/bitbucket/go-opera/testnet/opera2.datadir/opera.ipc
+unix  2      [ ACC ]     STREAM     LISTENING     104354   /var/lib/amazon/ssm/ipc/termination
+unix  2      [ ACC ]     STREAM     LISTENING     320581   /home/ubuntu/bitbucket/go-opera/testnet/opera1.datadir/opera.ipc
+unix  2      [ ACC ]     STREAM     LISTENING     19806    /run/irqbalance//irqbalance520.sock
+unix  2      [ ACC ]     STREAM     LISTENING     17238    @ISCSIADM_ABSTRACT_NAMESPACE
+unix  2      [ ACC ]     STREAM     LISTENING     62325    /run/containerd/containerd.sock.ttrpc
+unix  2      [ ACC ]     STREAM     LISTENING     314241   /home/ubuntu/bitbucket/go-opera/testnet/opera0.datadir/opera.ipc
+unix  2      [ ACC ]     STREAM     LISTENING     62326    /run/containerd/containerd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     63513    /run/docker.sock
+unix  2      [ ACC ]     STREAM     LISTENING     63531    /var/run/docker/metrics.sock
+unix  2      [ ACC ]     STREAM     LISTENING     63184    /var/run/docker/libnetwork/d114d15a59a5.sock

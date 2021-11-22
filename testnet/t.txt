@@ -1,0 +1,5 @@
+-e 
+Start node0:
+
+-e 	node0 Ok
+Fatal: key-num should be in range from 1 to validators (<key-num>/<validators>), or should be zero for non-validator node
