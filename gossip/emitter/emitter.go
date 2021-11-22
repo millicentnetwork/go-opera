@@ -8,22 +8,22 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/emitter/ancestor"
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
+	"github.com/millicentnetwork/lachesis-base/emitter/ancestor"
+	"github.com/millicentnetwork/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/pos"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/trie"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip/emitter/originatedtxs"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/tracing"
-	"github.com/Fantom-foundation/go-opera/utils/piecefunc"
-	"github.com/Fantom-foundation/go-opera/utils/rate"
+	"github.com/millicentnetwork/go-opera/evmcore"
+	"github.com/millicentnetwork/go-opera/gossip/emitter/originatedtxs"
+	"github.com/millicentnetwork/go-opera/inter"
+	"github.com/millicentnetwork/go-opera/logger"
+	"github.com/millicentnetwork/go-opera/tracing"
+	"github.com/millicentnetwork/go-opera/utils/piecefunc"
+	"github.com/millicentnetwork/go-opera/utils/rate"
 )
 
 const (

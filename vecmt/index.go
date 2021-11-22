@@ -1,16 +1,16 @@
 package vecmt
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/table"
-	"github.com/Fantom-foundation/lachesis-base/utils/cachescale"
-	"github.com/Fantom-foundation/lachesis-base/utils/wlru"
-	"github.com/Fantom-foundation/lachesis-base/vecengine"
-	"github.com/Fantom-foundation/lachesis-base/vecfc"
+	"github.com/millicentnetwork/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/inter/dag"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/pos"
+	"github.com/millicentnetwork/lachesis-base/kvdb"
+	"github.com/millicentnetwork/lachesis-base/kvdb/table"
+	"github.com/millicentnetwork/lachesis-base/utils/cachescale"
+	"github.com/millicentnetwork/lachesis-base/utils/wlru"
+	"github.com/millicentnetwork/lachesis-base/vecengine"
+	"github.com/millicentnetwork/lachesis-base/vecfc"
 )
 
 // IndexCacheConfig - config for cache sizes of Engine

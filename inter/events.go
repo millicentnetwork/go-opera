@@ -3,8 +3,8 @@ package inter
 import (
 	"bytes"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
+	"github.com/millicentnetwork/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/inter/dag"
 )
 
 // Events is a ordered slice of events.

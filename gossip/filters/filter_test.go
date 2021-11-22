@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Fantom-foundation/lachesis-base/kvdb/table"
+	"github.com/millicentnetwork/lachesis-base/kvdb/table"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/consensus/ethash"
 	"github.com/ethereum/go-ethereum/core"
@@ -32,8 +32,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-opera/topicsdb"
-	"github.com/Fantom-foundation/go-opera/utils/adapters/ethdb2kvdb"
+	"github.com/millicentnetwork/go-opera/topicsdb"
+	"github.com/millicentnetwork/go-opera/utils/adapters/ethdb2kvdb"
 )
 
 func testConfig() Config {

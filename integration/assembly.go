@@ -5,22 +5,22 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Fantom-foundation/lachesis-base/abft"
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/flushable"
+	"github.com/millicentnetwork/lachesis-base/abft"
+	"github.com/millicentnetwork/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/kvdb"
+	"github.com/millicentnetwork/lachesis-base/kvdb/flushable"
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
-	"github.com/Fantom-foundation/go-opera/utils/adapters/vecmt2dagidx"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/millicentnetwork/go-opera/gossip"
+	"github.com/millicentnetwork/go-opera/opera"
+	"github.com/millicentnetwork/go-opera/opera/genesisstore"
+	"github.com/millicentnetwork/go-opera/utils/adapters/vecmt2dagidx"
+	"github.com/millicentnetwork/go-opera/vecmt"
 )
 
 // GenesisMismatchError is raised when trying to overwrite an existing

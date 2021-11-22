@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
+	"github.com/millicentnetwork/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/pos"
 
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/millicentnetwork/go-opera/inter"
 )
 
 // medianTimeIndex is a handy index for the MedianTime() func

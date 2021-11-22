@@ -4,18 +4,18 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/common/bigendian"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/flushable"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/table"
-	"github.com/Fantom-foundation/lachesis-base/utils/wlru"
+	"github.com/millicentnetwork/lachesis-base/common/bigendian"
+	"github.com/millicentnetwork/lachesis-base/kvdb"
+	"github.com/millicentnetwork/lachesis-base/kvdb/flushable"
+	"github.com/millicentnetwork/lachesis-base/kvdb/memorydb"
+	"github.com/millicentnetwork/lachesis-base/kvdb/table"
+	"github.com/millicentnetwork/lachesis-base/utils/wlru"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/gossip/evmstore"
-	"github.com/Fantom-foundation/go-opera/gossip/sfcapi"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/utils/rlpstore"
+	"github.com/millicentnetwork/go-opera/gossip/evmstore"
+	"github.com/millicentnetwork/go-opera/gossip/sfcapi"
+	"github.com/millicentnetwork/go-opera/logger"
+	"github.com/millicentnetwork/go-opera/utils/rlpstore"
 )
 
 // Store is a node persistent storage working over physical key-value database.

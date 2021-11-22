@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
+	"github.com/millicentnetwork/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/pos"
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
@@ -22,15 +22,15 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/pkg/errors"
 
-	"github.com/Fantom-foundation/go-opera/ethapi"
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip/blockproc"
-	"github.com/Fantom-foundation/go-opera/gossip/sfcapi"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/inter/drivertype"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/topicsdb"
-	"github.com/Fantom-foundation/go-opera/tracing"
+	"github.com/millicentnetwork/go-opera/ethapi"
+	"github.com/millicentnetwork/go-opera/evmcore"
+	"github.com/millicentnetwork/go-opera/gossip/blockproc"
+	"github.com/millicentnetwork/go-opera/gossip/sfcapi"
+	"github.com/millicentnetwork/go-opera/inter"
+	"github.com/millicentnetwork/go-opera/inter/drivertype"
+	"github.com/millicentnetwork/go-opera/opera"
+	"github.com/millicentnetwork/go-opera/topicsdb"
+	"github.com/millicentnetwork/go-opera/tracing"
 )
 
 // EthAPIBackend implements ethapi.Backend.

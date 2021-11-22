@@ -4,11 +4,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-opera/inter/validatorpk"
-	"github.com/Fantom-foundation/go-opera/opera"
+	"github.com/millicentnetwork/go-opera/inter/validatorpk"
+	"github.com/millicentnetwork/go-opera/opera"
 )
 
 // EmitIntervals is the configuration of emit intervals.

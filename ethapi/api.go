@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/hash"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/accounts/abi"
@@ -46,10 +46,10 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/tyler-smith/go-bip39"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/utils/gsignercache"
+	"github.com/millicentnetwork/go-opera/evmcore"
+	"github.com/millicentnetwork/go-opera/inter"
+	"github.com/millicentnetwork/go-opera/opera"
+	"github.com/millicentnetwork/go-opera/utils/gsignercache"
 )
 
 var (

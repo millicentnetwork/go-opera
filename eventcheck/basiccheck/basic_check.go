@@ -4,11 +4,11 @@ import (
 	"errors"
 	"math"
 
-	base "github.com/Fantom-foundation/lachesis-base/eventcheck/basiccheck"
+	base "github.com/millicentnetwork/lachesis-base/eventcheck/basiccheck"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/millicentnetwork/go-opera/evmcore"
+	"github.com/millicentnetwork/go-opera/inter"
 )
 
 var (

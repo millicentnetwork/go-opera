@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/eventcheck/epochcheck"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
+	"github.com/millicentnetwork/lachesis-base/eventcheck/epochcheck"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/pos"
 
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/millicentnetwork/go-opera/inter"
 )
 
 var (

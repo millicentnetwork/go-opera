@@ -3,17 +3,17 @@ package integration
 import (
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/abft"
-	"github.com/Fantom-foundation/lachesis-base/utils/cachescale"
+	"github.com/millicentnetwork/lachesis-base/abft"
+	"github.com/millicentnetwork/lachesis-base/utils/cachescale"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
 	"github.com/status-im/keycard-go/hexutils"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/inter/validatorpk"
-	"github.com/Fantom-foundation/go-opera/valkeystore"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/millicentnetwork/go-opera/gossip"
+	"github.com/millicentnetwork/go-opera/inter/validatorpk"
+	"github.com/millicentnetwork/go-opera/valkeystore"
+	"github.com/millicentnetwork/go-opera/vecmt"
 )
 
 var (

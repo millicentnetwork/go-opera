@@ -19,15 +19,15 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/cmd/opera/launcher/metrics"
-	"github.com/Fantom-foundation/go-opera/cmd/opera/launcher/tracing"
-	"github.com/Fantom-foundation/go-opera/debug"
-	"github.com/Fantom-foundation/go-opera/flags"
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/utils/errlock"
-	"github.com/Fantom-foundation/go-opera/valkeystore"
-	_ "github.com/Fantom-foundation/go-opera/version"
+	"github.com/millicentnetwork/go-opera/cmd/opera/launcher/metrics"
+	"github.com/millicentnetwork/go-opera/cmd/opera/launcher/tracing"
+	"github.com/millicentnetwork/go-opera/debug"
+	"github.com/millicentnetwork/go-opera/flags"
+	"github.com/millicentnetwork/go-opera/gossip"
+	"github.com/millicentnetwork/go-opera/integration"
+	"github.com/millicentnetwork/go-opera/utils/errlock"
+	"github.com/millicentnetwork/go-opera/valkeystore"
+	_ "github.com/millicentnetwork/go-opera/version"
 )
 
 const (

@@ -3,14 +3,14 @@ package gossip
 import (
 	"fmt"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
+	"github.com/millicentnetwork/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/kvdb"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/utils/concurrent"
-	"github.com/Fantom-foundation/go-opera/utils/migration"
+	"github.com/millicentnetwork/go-opera/inter"
+	"github.com/millicentnetwork/go-opera/utils/concurrent"
+	"github.com/millicentnetwork/go-opera/utils/migration"
 )
 
 func isEmptyDB(db kvdb.Iteratee) bool {

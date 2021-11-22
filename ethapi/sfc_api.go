@@ -3,12 +3,12 @@ package ethapi
 import (
 	"context"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/gossip/sfcapi"
+	"github.com/millicentnetwork/go-opera/gossip/sfcapi"
 )
 
 // PublicSfcAPI provides an API to access SFC related information.

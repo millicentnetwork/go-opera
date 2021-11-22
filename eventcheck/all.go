@@ -1,12 +1,12 @@
 package eventcheck
 
 import (
-	"github.com/Fantom-foundation/go-opera/eventcheck/basiccheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/epochcheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/gaspowercheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/heavycheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/parentscheck"
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/millicentnetwork/go-opera/eventcheck/basiccheck"
+	"github.com/millicentnetwork/go-opera/eventcheck/epochcheck"
+	"github.com/millicentnetwork/go-opera/eventcheck/gaspowercheck"
+	"github.com/millicentnetwork/go-opera/eventcheck/heavycheck"
+	"github.com/millicentnetwork/go-opera/eventcheck/parentscheck"
+	"github.com/millicentnetwork/go-opera/inter"
 )
 
 // Checkers is collection of all the checkers

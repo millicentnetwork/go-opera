@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/hash"
 	"github.com/ethereum/go-ethereum/log"
 )
 

@@ -1,9 +1,9 @@
-module github.com/Fantom-foundation/go-opera
+module github.com/millicentnetwork/go-opera
 
 go 1.14
 
 require (
-	github.com/Fantom-foundation/lachesis-base v0.0.0-20210721130657-54ad3c8a18c1
+	github.com/millicentnetwork/lachesis-base v0.0.0-20210721130657-54ad3c8a18c1 // indirect
 	github.com/allegro/bigcache v1.2.1 // indirect
 	github.com/certifi/gocertifi v0.0.0-20191021191039-0944d244cd40 // indirect
 	github.com/cespare/cp v1.1.1
@@ -25,6 +25,7 @@ require (
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/mattn/go-colorable v0.1.4
 	github.com/mattn/go-isatty v0.0.10
+	github.com/millicentnetwork/lachesis-base v0.0.0-20210721130657-54ad3c8a18c1
 	github.com/naoina/toml v0.1.2-0.20170918210437-9fafd6967416
 	github.com/opentracing/opentracing-go v1.1.0
 	github.com/pkg/errors v0.9.1
@@ -43,6 +44,10 @@ require (
 	gopkg.in/urfave/cli.v1 v1.20.0
 )
 
-replace github.com/ethereum/go-ethereum => github.com/Fantom-foundation/go-ethereum v1.9.7-0.20210827160629-07563551b4c0
+replace github.com/ethereum/go-ethereum => github.com/millicentnetwork/go-ethereum v1.9.7-0.20210827160629-07563551b4c0
 
 replace github.com/dvyukov/go-fuzz => github.com/guzenok/go-fuzz v0.0.0-20210103140116-f9104dfb626f
+
+replace github.com/millicentnetwork/lachesis-base => /home/trevor/forkopera/lachesis-base
+
+//replace github.com/millicentnetwork/go-ethereum => /home/trevor/forkopera/go-ethereum

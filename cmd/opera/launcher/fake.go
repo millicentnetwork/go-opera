@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/integration/makegenesis"
+	"github.com/millicentnetwork/go-opera/integration/makegenesis"
 )
 
 // FakeNetFlag enables special testnet, where validators are automatically created

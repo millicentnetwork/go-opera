@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/skiperrors"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/table"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/kvdb"
+	"github.com/millicentnetwork/lachesis-base/kvdb/skiperrors"
+	"github.com/millicentnetwork/lachesis-base/kvdb/table"
 
-	"github.com/Fantom-foundation/go-opera/logger"
+	"github.com/millicentnetwork/go-opera/logger"
 )
 
 var (

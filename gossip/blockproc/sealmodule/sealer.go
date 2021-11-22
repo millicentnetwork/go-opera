@@ -3,11 +3,11 @@ package sealmodule
 import (
 	"math/big"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
-	"github.com/Fantom-foundation/lachesis-base/lachesis"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/pos"
+	"github.com/millicentnetwork/lachesis-base/lachesis"
 
-	"github.com/Fantom-foundation/go-opera/gossip/blockproc"
+	"github.com/millicentnetwork/go-opera/gossip/blockproc"
 )
 
 type OperaEpochsSealerModule struct{}

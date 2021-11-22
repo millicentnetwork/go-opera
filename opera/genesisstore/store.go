@@ -1,12 +1,12 @@
 package genesisstore
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/table"
+	"github.com/millicentnetwork/lachesis-base/kvdb"
+	"github.com/millicentnetwork/lachesis-base/kvdb/memorydb"
+	"github.com/millicentnetwork/lachesis-base/kvdb/table"
 
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/utils/rlpstore"
+	"github.com/millicentnetwork/go-opera/logger"
+	"github.com/millicentnetwork/go-opera/utils/rlpstore"
 )
 
 // Store is a node persistent storage working over physical key-value database.

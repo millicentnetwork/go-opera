@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-opera/opera"
+	"github.com/millicentnetwork/go-opera/opera"
 )
 
 type TestBackend struct {

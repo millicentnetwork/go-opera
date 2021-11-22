@@ -3,7 +3,7 @@ package concurrent
 import (
 	"sync"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/hash"
 )
 
 type EventsSet struct {

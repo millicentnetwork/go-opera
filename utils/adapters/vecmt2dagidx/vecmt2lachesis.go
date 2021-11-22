@@ -1,13 +1,13 @@
 package vecmt2dagidx
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/abft"
-	"github.com/Fantom-foundation/lachesis-base/abft/dagidx"
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/vecfc"
+	"github.com/millicentnetwork/lachesis-base/abft"
+	"github.com/millicentnetwork/lachesis-base/abft/dagidx"
+	"github.com/millicentnetwork/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/inter/idx"
+	"github.com/millicentnetwork/lachesis-base/vecfc"
 
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/millicentnetwork/go-opera/vecmt"
 )
 
 type Adapter struct {

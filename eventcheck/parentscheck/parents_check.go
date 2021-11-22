@@ -3,9 +3,9 @@ package parentscheck
 import (
 	"errors"
 
-	base "github.com/Fantom-foundation/lachesis-base/eventcheck/parentscheck"
+	base "github.com/millicentnetwork/lachesis-base/eventcheck/parentscheck"
 
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/millicentnetwork/go-opera/inter"
 )
 
 var (

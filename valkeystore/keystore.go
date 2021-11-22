@@ -1,8 +1,8 @@
 package valkeystore
 
 import (
-	"github.com/Fantom-foundation/go-opera/inter/validatorpk"
-	"github.com/Fantom-foundation/go-opera/valkeystore/encryption"
+	"github.com/millicentnetwork/go-opera/inter/validatorpk"
+	"github.com/millicentnetwork/go-opera/valkeystore/encryption"
 )
 
 type RawKeystoreI interface {

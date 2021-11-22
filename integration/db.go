@@ -4,15 +4,15 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/leveldb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
-	"github.com/Fantom-foundation/lachesis-base/utils/cachescale"
+	"github.com/millicentnetwork/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/inter/dag"
+	"github.com/millicentnetwork/lachesis-base/kvdb"
+	"github.com/millicentnetwork/lachesis-base/kvdb/leveldb"
+	"github.com/millicentnetwork/lachesis-base/kvdb/memorydb"
+	"github.com/millicentnetwork/lachesis-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
+	"github.com/millicentnetwork/go-opera/gossip"
 )
 
 func DBProducer(chaindataDir string, scale cachescale.Func) kvdb.IterableDBProducer {

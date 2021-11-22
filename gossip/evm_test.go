@@ -9,13 +9,13 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
+	"github.com/millicentnetwork/lachesis-base/hash"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-opera/gossip/contract/ballot"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/utils"
+	"github.com/millicentnetwork/go-opera/gossip/contract/ballot"
+	"github.com/millicentnetwork/go-opera/logger"
+	"github.com/millicentnetwork/go-opera/utils"
 )
 
 func BenchmarkBallotTxsProcessing(b *testing.B) {
