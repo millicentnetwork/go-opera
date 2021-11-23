@@ -3,7 +3,6 @@ module github.com/millicentnetwork/go-opera
 go 1.14
 
 require (
-	github.com/millicentnetwork/lachesis-base v0.0.0-20210721130657-54ad3c8a18c1 // indirect
 	github.com/allegro/bigcache v1.2.1 // indirect
 	github.com/certifi/gocertifi v0.0.0-20191021191039-0944d244cd40 // indirect
 	github.com/cespare/cp v1.1.1
